@@ -3,13 +3,6 @@
 # Arch Linux Fast Install - Быстрая установка Arch Linux https://github.com/ordanax/arch2018
 # Цель скрипта - быстрое развертывание системы с вашими персональными настройками (конфиг XFCE, темы, программы и т.д.).
 
-# В разработке принимали участие:
-# Алексей Бойко https://vk.com/ordanax
-# Степан Скрябин https://vk.com/zurg3
-# Михаил Сарвилин https://vk.com/michael170707
-# Данил Антошкин https://vk.com/danil.antoshkin
-# Юрий Порунцов https://vk.com/poruncov
-
 loadkeys ru
 setfont cyr-sun16
 echo 'Скрипт сделан на основе чеклиста Бойко Алексея по Установке ArchLinux'
@@ -26,19 +19,19 @@ echo '2.4 создание разделов'
   echo;
   echo;
   echo;
-  echo +100M;
+  echo +100G;
 
   echo n;
   echo;
   echo;
   echo;
-  echo +20G;
+  echo +100G;
 
   echo n;
   echo;
   echo;
   echo;
-  echo +1024M;
+  echo +45G;
 
   echo n;
   echo p;
